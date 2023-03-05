@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    border: 1px solid black;
+}
+
+header #header-navigation {
+    width: 100%;
+    height: 40px;
+    background-color: #012c4f;
+    display: flex;
+    justify-content: center ;
+}
+
+header #header-navigation .content-header-navigation {
+    width: 70%;
+    border: 1px solid blue;
+}
